@@ -20,3 +20,5 @@ def get_id():
     return send('*IDN?').tobytes().decode('utf-8')
 
 get_id()
+
+
